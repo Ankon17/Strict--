@@ -1,0 +1,291 @@
+body{
+
+	font-family: 'Lato', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+       color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 40px 23px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #15a4fa;
+  
+}
+.navbar{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+.banner-section{
+	background-image: url(../images/banner.png);
+	position: relative;
+	text-align: center;
+}
+
+.banner-section .row{
+  min-height: 90vh;
+}
+.banner-section h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    line-height: .8;
+    margin-bottom: 35px;
+}
+.banner-section span{
+    width: 100%;
+    height: 2px;
+    background: #15a4fa;
+    display: block;
+}
+.banner-section p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 30px;
+}
+.btn-custom {
+    font-size: 18px;
+    border: 1px solid #15a4fa;
+    color: #fff;
+
+    transition: 0.5 ease-in-out;
+}
+.btn-custom :hover{
+
+	
+background-color: #15a4fa;
+color: #fff;
+
+
+	}
+.arrow {
+
+color: #fff;
+
+position: absolute;
+
+bottom: 70px;
+
+left: 50%;
+
+transform: translate(-50%);
+transition: 0.5 ease-in-out;
+}
+.arrow:hover{
+color: #fff;
+bottom: 80px;
+
+
+}
+.About-section{
+    background-color: #f6f9f9;
+    text-align: center;
+    padding: 85px 0;
+}
+
+.About-section h1{
+    font-size: 40px;
+    color: #2d3950;
+} 
+
+.About-section  p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #2d3950;
+}
+
+.feature-section{
+    text-align: center;
+    padding: 80px 0;
+}
+.feature-section .icon-box {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+	background: #48baff; /* Old browsers */
+	background: -moz-linear-gradient(left, #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+	height: 80px;
+	width: 80px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	line-height: 80px;
+	margin: auto;
+}
+.feature-section h3{
+    font-size: 20px;
+    color: #2d3950;
+    margin: 10px 0;
+}
+.feature-section p{
+    font-size: 15px;
+    color: #999;
+} 
+
+.showcase-section{background-color: #f6f9f9;padding: 85px 0;}
+.heading {
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 40px;
+    color: #2d3950;
+}
+.heading  p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #2d3950;
+}
+.work::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 0;
+	background: #48baffbf;
+	left: 0;
+	bottom:   0;
+	transition: 0.3s;
+}
+.work:hover::before {
+
+height: 100%;
+}
+.work{
+	position: relative;
+}
+.work img{}
+.work ul{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    opacity: 0;
+    transition: 0.5s;
+}
+.work:hover ul{
+  
+    top: 50%;
+ 
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.work ul li{
+    margin: 0 5px;
+}
+.work ul li a{
+    border: 2px solid white;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+}
+.work ul li a:hover{}
+
+.form-section{
+    background: 
+    linear-gradient(
+        rgba(43,54,74,0.8),
+        rgba(43,54,74,0.8)
+    ),
+    url(../images/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-section .row{
+    min-height: 65vh;
+}
+.form-margin{
+    padding-top: 75px;
+}
+.form-section h1{
+    color: #eaebec;
+}
+.form-section p{
+    color: #999999;
+}
+.form-input{
+    margin-top: 50px;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.form-text{ 
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 1px solid #999;
+    background: rgba(43,54,74,0.1);
+    padding: 20px 40px;
+    outline: none;
+
+}
+textarea{
+    height: 160px;
+}
+.check-box{
+    color:#fff;
+    font-size: 15px;
+}
+footer{
+    margin: 15px 0;
+}
+.icon1{
+    background-color: #15a4fa;
+    padding: 15px 19px;
+    color: white;
+    margin-right: 5px;
+    
+}
+.icon2{
+    background-color: #15a4fa;
+    padding: 15px;
+    color: white;
+    margin-right: 5px;
+    
+}
+.icon3{
+    background-color: #15a4fa;
+    padding: 15px;
+    color: white;
+    margin-right: 5px;
+    
+}
+.icon4{
+    background-color: #15a4fa;
+    padding: 15px 18px;
+    color: white;
+    border-radius: 0.5px;
+}
+footer li{
+    border-radius: 0.5px;
+}
+footer p{
+    margin-top: 10px;
+}
+@media screen and (max-width:480px){
+    .banner-section h1{
+        color: white;
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    footer p{
+        display: none;
+    }
+
+}
